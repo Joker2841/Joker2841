@@ -12,6 +12,7 @@
 
 <!-- Primary badges -->
 <p align="center">
+  <a href="https://tensen.dev"><img src="https://img.shields.io/badge/Blog-tensen.dev-FF7139?style=for-the-badge&logo=substack&logoColor=white" alt="Blog"/></a>
   <a href="https://www.linkedin.com/in/sai-girish-anga"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://codeforces.com/profile/Varun301004"><img src="https://img.shields.io/badge/Codeforces%20Expert-1803-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/></a>
   <a href="mailto:jokerbj2841@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -40,6 +41,7 @@ const sai = {
     languages:    ["Rust", "C++", "Python", "Java"],
     currently:    "Building Sastran — a crash-safe storage engine",
     competitive:  "Codeforces Expert (max 1803)",
+    writing_at:   "tensen.dev",
     open_to:      "Full-time SDE / Backend / Infrastructure roles",
     based_in:     "India",
     availability: "Immediate"
@@ -59,7 +61,7 @@ The fastest way to know what I work on is to look at what I build — scroll dow
   <img src="https://img.shields.io/badge/Interviewing-Full--time%20SDE%20roles-58A6FF?style=for-the-badge&logo=googlemeet&logoColor=white&labelColor=0D1117" alt="Interviewing"/>
 </p>
 <p>
-  <img src="https://img.shields.io/badge/Reading-Distributed%20systems%20papers-9B59B6?style=for-the-badge&logo=academia&logoColor=white&labelColor=0D1117" alt="Reading"/>
+  <img src="https://img.shields.io/badge/Writing-tensen.dev-FF7139?style=for-the-badge&logo=hashnode&logoColor=white&labelColor=0D1117" alt="Writing"/>
   <img src="https://img.shields.io/badge/Climbing-Codeforces%20toward%20CM-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0D1117" alt="Climbing"/>
 </p>
 
@@ -345,7 +347,7 @@ I've competed on Codeforces since 2022. It's where I first learned to think abou
 </p>
 </details>
 
-<!-- Snake animation (subtle visual flourish, well-loved in CS profiles) -->
+<!-- Snake animation (requires GitHub Action setup — see README notes) -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Joker2841/Joker2841/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
 </p>
@@ -356,16 +358,47 @@ I've competed on Codeforces since 2022. It's where I first learned to think abou
 
 ## <samp>What I read &amp; think about</samp>
 
-A short list of papers and books that have shaped how I think — not exhaustive, just the ones I'd actually recommend.
+Reading shapes how I work as much as building does. A short list of what's actually on my shelf — split between systems papers that inform my engineering and the broader books that shape how I think.
 
-| Type | Title | Why it matters to me |
-|:-----|:------|:---------------------|
-| 📄 Paper | **The Log-Structured Merge-Tree** (O'Neil et al.) | The foundation behind LevelDB, RocksDB, and Sastran's KV layer |
-| 📄 Paper | **Efficient ANN search using HNSW** (Malkov & Yashunin) | What Sastran's vector index implements |
-| 📄 Paper | **Dynamo: Amazon's Highly Available Key-value Store** | For thinking about distribution, replication, and eventual consistency |
-| 📄 Paper | **The Google File System** (Ghemawat et al.) | Still the cleanest introduction to large-scale block storage |
-| 📚 Book  | **Designing Data-Intensive Applications** (Kleppmann) | The textbook I wish every backend engineer read |
-| 📚 Book  | **Database Internals** (Petrov) | Dense but excellent on storage engines specifically |
+### 📄 Papers that inform my engineering
+
+| Paper | Why it matters to me |
+|:------|:---------------------|
+| **The Log-Structured Merge-Tree** — O'Neil et al. | The foundation behind LevelDB, RocksDB, and Sastran's KV layer |
+| **Efficient ANN search using HNSW** — Malkov & Yashunin | What Sastran's vector index implements |
+| **Dynamo: Amazon's Highly Available Key-value Store** | For thinking about distribution, replication, and eventual consistency |
+| **The Google File System** — Ghemawat et al. | Still the cleanest introduction to large-scale block storage |
+
+### 📚 Engineering books
+
+| Book | Why it matters to me |
+|:-----|:---------------------|
+| **Designing Data-Intensive Applications** — Kleppmann | The textbook I wish every backend engineer read |
+| **Database Internals** — Petrov | Dense but excellent on storage engines specifically |
+
+### 🧭 Beyond engineering — how I think and work
+
+| Book | Why it matters to me |
+|:-----|:---------------------|
+| **Thinking, Fast and Slow** — Kahneman | The book that changed how I treat my own intuitions |
+| **Deep Work** — Cal Newport | Why I protect long uninterrupted blocks for hard problems |
+| **Atomic Habits** — James Clear | Systems over goals — the framing that actually changed my daily work |
+| **Make It Stick** — Brown, Roediger, McDaniel | Evidence-based learning, written for technical readers |
+| **Clear Thinking** — Shane Parrish | On catching the moments where defaults make decisions for you |
+| **Man's Search for Meaning** — Viktor Frankl | The book I return to when work feels heavy |
+| **Meditations** — Marcus Aurelius | Short, ancient, still the best operating manual I've found for a noisy mind |
+
+<br/>
+
+<!-- ────────────────────────────────────────────────────────────── -->
+
+## <samp>Writing</samp>
+
+I write occasionally at **[tensen.dev](https://tensen.dev)** — mostly notes on systems, what I'm learning, and the occasional deep-dive into something I built.
+
+<p>
+  <a href="https://tensen.dev"><img src="https://img.shields.io/badge/Read%20on-tensen.dev-FF7139?style=for-the-badge&logo=hashnode&logoColor=white&labelColor=0D1117" alt="Blog"/></a>
+</p>
 
 <br/>
 
@@ -378,6 +411,7 @@ I'm open to full-time **SDE, backend, and infrastructure** roles, including AI /
 <p align="center">
   <a href="mailto:jokerbj2841@gmail.com"><img src="https://img.shields.io/badge/Email-jokerbj2841%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/sai-girish-anga"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://tensen.dev"><img src="https://img.shields.io/badge/Blog-tensen.dev-FF7139?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog"/></a>
   <a href="https://github.com/Joker2841"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
