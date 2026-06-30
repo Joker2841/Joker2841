@@ -37,7 +37,7 @@ I'm a 2026 CSE graduate from **IIT Guwahati**. I work across backend systems and
 const sai = {
     role:         "Software Engineer (2026 grad)",
     school:       "IIT Guwahati, Computer Science",
-    focus:        ["Backend", "Storage systems", "Applied AI / RAG"],
+    focus:        ["Storage systems", "LLM evaluation", "Backend"],
     languages:    ["Rust", "C++", "Python", "Java"],
     currently:    "Building Sastran — a crash-safe storage engine",
     competitive:  "Codeforces Expert (max 1803)",
@@ -61,6 +61,7 @@ The fastest way to know what I work on is to look at what I build — scroll dow
   <img src="https://img.shields.io/badge/Interviewing-Full--time%20SDE%20roles-58A6FF?style=for-the-badge&logo=googlemeet&logoColor=white&labelColor=0D1117" alt="Interviewing"/>
 </p>
 <p>
+  <img src="https://img.shields.io/badge/Prototyping-coherence%20(Cognee%20hackathon)-9B59B6?style=for-the-badge&logo=neo4j&logoColor=white&labelColor=0D1117" alt="Prototyping"/>
   <img src="https://img.shields.io/badge/Writing-tensen.dev-FF7139?style=for-the-badge&logo=hashnode&logoColor=white&labelColor=0D1117" alt="Writing"/>
   <img src="https://img.shields.io/badge/Climbing-Codeforces%20toward%20CM-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0D1117" alt="Climbing"/>
 </p>
@@ -155,21 +156,21 @@ Fine-tuned DeBERTa-v3 for sarcasm detection with custom affective-feature fusion
 <tr>
 <td width="50%" valign="top">
 
-<h3>🛡️ Real-time NIDS</h3>
-<p><em>Network Intrusion Detection System</em></p>
+<h3>🔎 Redrob — Intelligent Candidate Discovery</h3>
+<p><em>Track 01 hackathon · CPU-fast ranking with LLM coherence</em></p>
 
-Real-time cybersecurity monitoring with BPF-optimized packet capture.
+Ranks **100,000 candidates** against a Senior ML/AI JD via structural signals + LLM-grounded coherence checking. 5-stage pipeline: relevance floor → honeypot gate → JD disqualifier → calibrated scorer × multipliers.
 
-- Multi-threaded Python with BPF filters
-- 1,000–3,000 packets/sec, <200ms alert latency
-- 8 threat detection algorithms (SYN flood, port scan, ARP spoof, ICMP flood, LAND, etc.)
-- Full-stack dashboard with live WebSocket updates
-- Interactive threat visualizations in Plotly
-- Geographic IP tracking, persistent SQLite
+- **LLM re-tasked**: qwen2.5:7b (Ollama) shifted from tier-scorer to narrow coherence checker after templated prose inflated tier scores
+- Structural trap detection: tool anachronisms, narrative inconsistencies, domain mismatches
+- Empirical signal validation — dropped fps weight, dup-detection after measuring against full 100K pool
+- Two-pass design with offline LLM precompute and CPU-only ranking
+- **NDCG@10 = 0.929**, NDCG@50 = 0.978 on hand-built gold set
+- **< 5 min for 100K candidates**, no network, MIT licensed
 
-`Python` `BPF` `WebSockets` `SQLite` `Plotly`
+`Python` `Ollama` `LLM-as-judge` `Empirical eval`
 
-<a href="https://github.com/Joker2841/NIDS"><img src="https://img.shields.io/badge/View%20repository-181717?style=flat-square&logo=github&logoColor=white" alt="repo"/></a>
+<a href="https://github.com/Joker2841/redrob-ranker"><img src="https://img.shields.io/badge/View%20repository-181717?style=flat-square&logo=github&logoColor=white" alt="repo"/></a>
 
 </td>
 <td width="50%" valign="top">
@@ -177,9 +178,10 @@ Real-time cybersecurity monitoring with BPF-optimized packet capture.
 <h3>📂 More work</h3>
 <p><em>A few other things I've built</em></p>
 
-- **SkyConnect** — MERN-stack flight booking platform with REST API, automated notifications (node-cron + Nodemailer), and admin panel
-- **Codeforces archive** — solutions across 1,800+ rating range, climbed from newbie to Expert
-- **Gridlock 2.0 hackathon** — HackerEarth × Flipkart × Bengaluru Traffic Police traffic-demand prediction, leaderboard score ~89.1
+- **NIDS** — Real-time network intrusion detection (1-3K packets/sec via BPF + multi-threaded Python). The project where I debugged Python's GIL bottleneck firsthand. → [repo](https://github.com/Joker2841/NIDS)
+- **Runway** — AI agent that helps you finish commitments before deadlines, not just remember them. Built with Gemini on Google AI Studio. → [repo](https://github.com/Joker2841/Runway)
+- **SkyConnect** — MERN-stack flight booking platform with REST API, automated notifications (node-cron + Nodemailer), admin panel.
+- **Codeforces archive** + **Gridlock 2.0 hackathon** — competitive programming climb from newbie to Expert; Bengaluru Traffic Police × Flipkart traffic demand prediction (~89.1 leaderboard).
 
 All public repos at <a href="https://github.com/Joker2841?tab=repositories">my repositories page →</a>
 
@@ -195,7 +197,7 @@ All public repos at <a href="https://github.com/Joker2841?tab=repositories">my r
 
 A few principles I've actually learned from building these — not borrowed from somewhere.
 
-> **Measure before optimizing.** The 28× bloom filter speedup in Sastran came from writing the benchmark in Criterion *before* writing the optimization. The 41% routing cost reduction came from labeling 1,500 queries with GPU oracle data before training a router. I learned this the hard way enough times that it's now reflex.
+> **Measure before optimizing.** The 28× bloom filter speedup in Sastran came from writing the benchmark in Criterion *before* writing the optimization. The 41% routing cost reduction came from labeling 1,500 queries with GPU oracle data before training a router. In Redrob I dropped several intuitive signals — keyword density, duplicate-description detection, education date-ordering — to zero after measuring they had no ranking value across 100K candidates. I learned this the hard way enough times that it's now reflex.
 
 > **Learn by building.** Rust at depth came from building Sastran, not from a course. HNSW came from reading the Malkov–Yashunin paper and implementing it, not from a library wrapper. The fastest path to understanding something is usually to ship it.
 
