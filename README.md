@@ -1,8 +1,10 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1500&color=58A6FF&center=true&vCenter=true&width=650&lines=Software+Engineer+-+Backend%2C+Systems%2C+Applied+AI;IIT+Guwahati+-+Class+of+2026;Codeforces+Expert+-+Max+Rating+1803" alt="Typing SVG"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1B2735&height=200&section=header&text=Sai%20Girish%20Anga&fontSize=60&fontColor=58A6FF&fontAlignY=38&desc=Software%20Engineer%20-%20Backend%2C%20Systems%2C%20Applied%20AI&descSize=18&descAlignY=58&animation=fadeIn" alt="header banner"/>
 </p>
 
-<h1 align="center">Sai Girish Anga</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1500&color=58A6FF&center=true&vCenter=true&width=650&lines=Backend+%26+Systems+Engineer;Building+AI+Evaluation+Infrastructure;Codeforces+Expert+-+Max+Rating+1803;Open+to+Full-Time+SDE+Roles" alt="Typing SVG"/>
+</p>
 
 <p align="center">
   <a href="https://tensen.dev"><img src="https://img.shields.io/badge/Blog-tensen.dev-0D1117?style=for-the-badge&logo=hashnode&logoColor=58A6FF&labelColor=0D1117" alt="Blog"/></a>
@@ -16,6 +18,23 @@
 </p>
 
 <p align="center">Open to full-time SDE, backend, and infrastructure roles. Based in India. Available immediately.</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&section=header" alt="divider"/>
+</p>
+
+<h3 align="center">Impact at a glance</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Sastran-28x%20Faster%20Lookups-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Sastran speedup"/>
+  <img src="https://img.shields.io/badge/Sastran-96.2%25%20Recall%20at%204x%20Compression-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Sastran quantization"/>
+  <img src="https://img.shields.io/badge/Coherence-100%25%20Precision%20and%20Recall-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Coherence accuracy"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/LLM%20Router-41%25%20Cost%20Reduction-58A6FF?style=for-the-badge&labelColor=0D1117" alt="LLM router savings"/>
+  <img src="https://img.shields.io/badge/Redrob-0.929%20NDCG%20at%20100K%20Scale-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Redrob NDCG"/>
+  <img src="https://img.shields.io/badge/Sarcasm%20Model-94.77%25%20Macro%20F1-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Sarcasm model F1"/>
+</p>
 
 <br/>
 
@@ -180,7 +199,9 @@ A short list of what actually shaped how I think and work, split between systems
 
 **Books:** Designing Data-Intensive Applications (Kleppmann), Database Internals (Petrov), Thinking, Fast and Slow (Kahneman), Atomic Habits (Clear), Deep Work (Newport)
 
-<br/>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:58A6FF&height=3&section=header" alt="divider"/>
+</p>
 
 <h2 align="center">Say hello</h2>
 
